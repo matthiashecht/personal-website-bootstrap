@@ -10,16 +10,19 @@
       crossorigin="anonymous"
     />
     <script
+      defer
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
     <script
+      defer
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
     <script
+      defer
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
@@ -32,87 +35,68 @@
     >
       <h1 class="mt-2">Matthias Hecht</h1>
       <nav class="mt-2">
-        <a href="#Contact">Contact </a>
-        <a class="ml-2" href="#Biography">Biography</a>
+        <a href="#contact">Contact </a>
+        <a class="ml-2" href="#bio">Biography</a>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <section id="intro">
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <img src="img/author.jpeg" class="img-fluid" alt="xy" />
-              <p class="mt-2">me looking into the wild</p>
-            </div>
-            <div class="col-6">
-              <ul>
-                <li>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Reprehenderit eaque earum molestias eveniet illum
-                    laudantium? Reiciendis nam odio recusandae temporibus libero
-                    voluptatem culpa labore perspiciatis, eum vel non eius
-                    laborum!
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum ipsam iusto, tenetur itaque accusantium voluptate
-                    aliquid nisi totam, et omnis, ex nulla rem culpa beatae
-                    quisquam enim commodi? Nemo, deleniti?
-                  </p>
-                </li>
-              </ul>
-            </div>
+        <div class="row">
+          <div class="col-auto col-md-6 mx-auto">
+            <img src="img/dog.jpg" class="img-thumbnail" alt="xy" />
+            <div class="mt-2 text-center">how are ya doin</div>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Reprehenderit eaque earum molestias eveniet illum laudantium?
+                  Reiciendis nam odio recusandae temporibus libero voluptatem
+                  culpa labore perspiciatis, eum vel non eius laborum!
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum ipsam iusto, tenetur itaque accusantium voluptate
+                  aliquid nisi totam, et omnis, ex nulla rem culpa beatae
+                  quisquam enim commodi? Nemo, deleniti?
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
       <section id="contact">
         <div class="container">
-          <div class="row">
-            <div class="col">
+          <div class="row border">
+            <div class="col-md-6">
               <p>phone: 034502124232</p>
             </div>
-            <div class="col">
-              <a href="mailto:fisch@neuefische.de"> fisch@neuefische.de </a>
+            <div class="col-md-6">
+              <a href="mailto:fisch@neuefische.de">fisch@neuefische.de</a>
             </div>
           </div>
         </div>
-        <section class="row align-items-center">
-          <div class="col">
-            <p class="p-2">
-              <a href="https://github.com/"
-                ><img
-                  class="img-thumbnail"
-                  src="img/GitHub_Logo.png"
-                  alt="xy"
-                />
-              </a>
-            </p>
+        <section class="row">
+          <div class="col-md-4 p-2">
+            <a href="https://github.com/"
+              ><img class="img-thumbnail" src="img/GitHub_Logo.png" alt="xy" />
+            </a>
           </div>
-          <div class="col">
-            <p class="p-2">
-              <a href="https://www.xing.com/"
-                ><img src="img/Xing_logo.svg" class="img-thumbnail" alt="xy" />
-              </a>
-            </p>
+          <div class="col-md-4 p-2">
+            <a href="https://www.xing.com/home"
+              ><img src="img/Xing_logo.svg" class="img-thumbnail" alt="xy" />
+            </a>
           </div>
-          <div class="col">
-            <a href="https://codepen.io/"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewbox="0 0 138 26"
-                fill="none"
-                stroke="#000"
-                stroke-width="2.3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path
-                  d="M80 6h-9v14h9 M114 6h-9 v14h9 M111 13h-6 M77 13h-6 M122 20V6l11 14V6 M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24 M88 14h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14 M15 8c-1.3-1.3-3-2-5-2c-4 0-7 3-7 7s3 7 7 7 c2 0 3.7-0.8 5-2 M64 13c0 4-3 7-7 7h-5V6h5C61 6 64 9 64 13z"
-                />
-              </svg>
+          <div class="col-md-4 p-2">
+            <a href="https://codepen.io/matthiashecht-the-typescripter">
+              <img
+                class="img-thumbnail"
+                src="https://blog.codepen.io/wp-content/uploads/2012/06/codepen-wordmark-display-inside-black@10x.png"
+                alt="xy"
+              />
             </a>
           </div>
         </section>
@@ -120,7 +104,7 @@
       <section id="bio">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident rerum, quod numquam beatae vitae voluptatibus
@@ -129,7 +113,7 @@
                 quam adipisci?
               </p>
             </div>
-            <div class="col">
+            <div class="col-md-6">
               <ul>
                 <li>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -148,9 +132,9 @@
           </div>
         </div>
       </section>
-      <footer>
-        <p>copyright</p>
-      </footer>
     </main>
+    <footer>
+      <span>copyright</span>
+    </footer>
   </body>
 </html>
